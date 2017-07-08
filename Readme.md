@@ -32,7 +32,8 @@ output xcassets:
 Image.xcassets/a.imageset/Contents.json   `#settings before`   
 Image.xcassets/b.imageset/b.png    `#old again`   
 Image.xcassets/b.imageset/Contents.json   `#old again`   
-Image.xcassets/c.imageset/c.pdf    `#update`   
+~~Image.xcassets/c.imageset/c.png~~    `#delete`
+Image.xcassets/c.imageset/c.pdf    `#new insert`   
 Image.xcassets/c.imageset/Contents.json   `#settings before`   
 Image.xcassets/d.imageset/d.png    `#new insert`   
 Image.xcassets/d.imageset/Contents.json   `#new insert`   
