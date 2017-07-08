@@ -12,7 +12,7 @@ helpStr = "\nWelcome to Happyxcasset\n\
 This version has been tested in Xcode8 and supports both python2 and python3\n\
 To prevent unknown bugs, please back up your data before using it\n\
 Use commands easy to understand\n\
-python xcodexcassets.py -i <inputfile> -o <outputfile>\n\
+python xcodexcassets.py -i <inputdir> -o <outputdir>\n\
 -i The resource's input directory can contain subfolders\n\
 -o The output directory of the resource, which is the directory of the .xcasset in Xcode\n\
 -h Help\n\
