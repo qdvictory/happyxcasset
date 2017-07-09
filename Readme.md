@@ -6,9 +6,10 @@ It will not appear to replace the resources to wait for several minutes of embar
 Then let's use it.   
 In advance is your machine installed python (2 | 3), very pleased that mac os comes with python.   
 ### Shell   
-`python xcodexcassets.py -i <inputdir> -o <outputdir>`   
+`python xcodexcassets.py -i <inputdir> -o <outputdir> -e <fileextension>`   
 `-i` The resource's input directory can contain subfolders   
 `-o` The output directory of the resource, which is the directory of the .xcasset in Xcode   
+`-e` File extension. Default 'png,jpg,jpeg,pdf'   
 `-h` Help
 
 old xcassets:   
