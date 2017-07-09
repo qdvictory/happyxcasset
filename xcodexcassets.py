@@ -154,7 +154,7 @@ def replaceFileModel(inputModel,outputModel):
 def main(argv):
    inputfinder = ''
    outputfinder = ''
-   extensionname = ['png', 'jpg', 'pdf', 'jpeg']
+   extensionname = ['png', 'jpg', 'pdf', 'jpeg',"json"]
    try:
       opts, args = getopt.getopt(argv,"hi:o:e:",["inputfinder=","outfinder=","extension="])
    except getopt.GetoptError:
@@ -174,6 +174,8 @@ def main(argv):
    if len(inputfinder) == 0 or len(outputfinder) == 0 or len(extensionname)==0:
       print (helpStr)
       sys.exit(2)
+
+   extensionname.append("json")
 
    if not "xcassets" in outputfinder:
       print ("\n\nPlease enter the directory for xcassets in xcode correctly.\nlike \"/Users/Desktop/project/projectname/Image.xcassets\"")
