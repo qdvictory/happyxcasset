@@ -171,7 +171,7 @@ def main(argv):
       elif opt in ("-e", "--extension"):
          extensionname = arg.split(",")
 
-   if len(inputfinder) == 0 or len(outputfinder) == 0:
+   if len(inputfinder) == 0 or len(outputfinder) == 0 or len(extensionname)==0:
       print (helpStr)
       sys.exit(2)
 
@@ -180,13 +180,13 @@ def main(argv):
       sys.exit(2)
 
    while (True):
-      confirm = input("\n>>> This script will output all the files in the directory\n\
+      confirm = input("\n>>> This script will output all the files %s in the directory\n\
    (%s)\n\
    to the target directory\n\
    (%s)\n\
    and adapt to the xcode. \n\
    Before this, please back up the file in advance to prevent the file from being lost. \n\
-   Please confirm the operation (y / n) "%(inputfinder,outputfinder))
+   Please confirm the operation (y / n) "%(str(extensionname),inputfinder,outputfinder))
       
       if confirm.lower() == 'y':
          break;
