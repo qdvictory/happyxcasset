@@ -107,8 +107,13 @@ def replaceFileModel(inputModel,outputModel):
                   alreadyinsert = True
       if not alreadyinsert:
          for sdic in jsondic["images"]:
-            if sdic["scale"] == "1x":
+            if "scale" in list(sdic.keys()) and sdic["scale"] == "1x":
                   sdic["filename"] = nm.fileName
+                  alreadyinsert = True
+      if not alreadyinsert:
+         for sdic in jsondic["images"]:
+            sdic["filename"] = nm.fileName
+            alreadyinsert = True
 
       finderPath = outputPath+"/"+nm.singleName+".imageset/"
       if not os.path.exists(finderPath):
