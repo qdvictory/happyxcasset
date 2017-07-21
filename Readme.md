@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/qdvictory/happyxcasset.svg?branch=master)](https://travis-ci.org/qdvictory/happyxcasset)
+
 # Happyxcasset
 `Happyxcasset` is a python script that easily imports resource files into xcassets in Xcode.   
 It is easy and efficient.
