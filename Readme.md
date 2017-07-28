@@ -14,6 +14,9 @@ In advance is your machine installed python (2 | 3), very pleased that mac os co
 `-e` File extension. Default 'png,jpg,jpeg,pdf'   
 `-h` Help
 
+### Video
+[![preview](https://i.ytimg.com/vi/Ayik5U7NvOc/hqdefault.jpg)](https://youtu.be/Ayik5U7NvOc)
+
 old xcassets:   
 >Image.xcassets/a.imageset/a.png   
 Image.xcassets/a.imageset/Contents.json   
