@@ -52,7 +52,7 @@ If you do not want to enter long long python command every time, then simply set
 ### Open file   
 `vi ~ / .bash_profile`   
 ### Add line    
-`alisa happyxcasset = "python /Users/<pathto>/xcodexcassets.py"` 
+`alias happyxcasset="python /Users/<pathto>/xcodexcassets.py"`
 ### Save
 `source ~ / .bash_profile`     
 ### Use   
